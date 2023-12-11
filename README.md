@@ -10,6 +10,14 @@ The data for this analysis was sourced meticulously from the Central Pollution C
 The chosen datasets encompass diverse parameters, including PM2.5, PM10, NO2, SO2, NH3, CO, Ozone, and AQI, crucial in evaluating air quality. Specifically targeting these periods enabled a comprehensive analysis of the AQI trends during these festival-laden months.
 
 ## AQI Calculation and Prediction
+
+### Data Visualization
+Using Tableau the data for each station is visualised and presented as separate dashboards. We get a better insight into the AQI of that station, how AQI of each partical or factor influences the air, and more.
+- Annad Vihar: https://public.tableau.com/views/AQIAnandViharDelhi/AnandViharAQI?:language=en-US&:display_count=n&:origin=viz_share_link
+- Mundka: https://public.tableau.com/views/AQIMundka/AQIMundka_1?:language=en-US&:display_count=n&:origin=viz_share_link
+- Punjabi Bagh: https://public.tableau.com/views/AQIPunjabiBagh/AQIPunjabiBagh?:language=en-US&:display_count=n&:origin=viz_share_link
+
+
 Now that our dataset for the three cities is clean, we perform the following machine learning models on them to analyse and predict the AQI for future:
 1. Linear Regression
 2. Support Vector Regression
